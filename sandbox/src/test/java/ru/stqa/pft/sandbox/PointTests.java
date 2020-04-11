@@ -10,6 +10,8 @@ public class PointTests {
     Point p1 = new Point(6, 6);
     Point p2 = new Point(2,3);
     Assert.assertEquals(p1.distance(p2), 5.0);
+    System.out.println("Почему так происходит?");
+    System.out.println("Площадь квадрата со стороной ");
   }
 
 }
